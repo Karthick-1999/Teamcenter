@@ -7,6 +7,10 @@ public class module {
         Scannner input =new Scanner (system.in);
         System.out.println ("enter your user name ");
         String uName =input.nextLine();
-
-        system.out.println(uName);    }
+        System.out.println ("enter your password");
+        String password = input.nextLine();
+        system.out.println(uName);
+        System.out.println(password);  
+        
+         }
 }
